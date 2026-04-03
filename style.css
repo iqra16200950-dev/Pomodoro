@@ -96,11 +96,22 @@ button{
     text-transform:uppercase;
     letter-spacing: 1px;
     border: none;
-    background:none;
-    outline: non;
+    background:whitesmoke;
+    outline: bisque;
     color:#43578e
 }
 
 button:hover {
-    color:#81b1c3;
+    color:#d4e0e4;
+}
+
+.btn-start, .btn-pause, .btn-restart{
+  top: 50px;
+}
+
+.material-symbols-outlined {
+  font-size: 40px;
+}
+.m-p{
+  font-size: 30px;
 }
