@@ -1,0 +1,106 @@
+html {
+    font-family:"Pixelify Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  min-height:100vh;
+  color: #437a8e;
+  background-image: url('assets/Background-beach.png');
+  background-size: cover;
+}
+
+h1{
+    margin: 0 auto 10px auto;
+    color: #43578e;
+}
+
+p{
+    margin:0;
+}
+.app-message{
+    height:20px;
+    margin: 10px auto 20px auto;
+}
+
+.app-container{
+    width:250px;
+    height: 420px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.app-circle{
+    position:relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.circle-shape{
+    pointer-events:none;
+}
+
+.semi-circle{
+    position:absolute;
+    width:100px;
+    height:200ps;
+    box-sizing:border-box;
+    border: solid 6px;
+}
+
+.left-side {
+    width: 200px;
+    height: 200px; /* as the half of the width */
+    background-color: rgba(255, 217, 0, 0);
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid #4e6bb9;
+    border-bottom: 0;
+    border-radius:50%;
+    
+}
+
+.right-side{
+    width: 200px;
+    height: 200px;
+    background-color:#81b1c372;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid #4e6bb9 ;
+    border-bottom: 0;
+    border-radius:50%;
+    transform: rotate(-180deg);
+    
+}
+
+.circle{
+    border-color:10px #4e6bb9;
+
+}
+
+.circle-mask{
+    border-color:#536bae;
+}
+.app-counter-box{
+    font-family: "Dancing Script", cursive;
+    font-size: 250%;
+    position: relative;
+    top: 50px;
+    color:#43578e
+}
+button{
+    position: relative;
+    top: 50px;
+    font-size: 80%;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    border: none;
+    background:none;
+    outline: non;
+    color:#43578e
+}
+
+button:hover {
+    color:#81b1c3;
+}
